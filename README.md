@@ -1,4 +1,4 @@
-# 1920宽屏Vue后台管理项目适配方案
+# 1920宽屏Vue项目适配方案
 
 ## 技术栈
 vuecli3 + webpack4 + postcss + elementUI
@@ -11,4 +11,5 @@ vuecli3 + webpack4 + postcss + elementUI
 
 ### 不转化单位
 在px后面添加/*no*/，不会转化px，会原样输出。 --- 一般border需用这个
+
 在px后面添加/*px*/,会根据dpr的不同，生成三套代码。---- 一般字体需用这个
